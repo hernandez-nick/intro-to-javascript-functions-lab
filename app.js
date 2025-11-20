@@ -55,8 +55,8 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
-function isCharAVowel(char) {
-    const vowels = ['a', 'e', 'i', 'o', 'u']
+const isCharAVowel = (char) => {
+    const vowels = "aeiou"
     return vowels.includes(char.toLowerCase())
 }
 
@@ -76,7 +76,7 @@ should return 'johnsmith@example.com'.
 Complete the exercise in the space below:
 */
 
-function generateEmail(name, domain) {
+const generateEmail = (name, domain) => {
     return name + '@' + domain
 }
 
@@ -96,7 +96,7 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
-function greetUser(name, timeOfDay) {
+const greetUser = (name, timeOfDay) => {
     if (timeOfDay === 'morning') {
         return "Good morning, " + name + "!"
     } else if (timeOfDay === 'afternoon') {
