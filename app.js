@@ -38,3 +38,6 @@ const isAdult = (age) => {
 }
 
 console.log('Exercise 2 Result:', isAdult(21));
+
+
+
